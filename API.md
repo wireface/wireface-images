@@ -1,6 +1,6 @@
 # Bring images on a page to life
 
-Wireface Images adds silent expressions, blinks and eye movements to existing images. It is completely free for personal and commercial use under the Wireface Personal Licence. No account, API key, subscription, speech service or image upload. Detection and animation run in the visitor's browser. The first visit downloads the JavaScript, WASM and model assets.
+Wireface Images adds silent expressions, blinks and eye movements to existing images. It is free for personal and commercial use, such as your own website, under the Wireface Personal Licence; using it in a product, app or service you sell or charge for, such as a SaaS product, needs a Developer or Enterprise licence. No account, API key, subscription, speech service or image upload. Detection and animation run in the visitor's browser. The first visit downloads the JavaScript, WASM and model assets.
 
 ## One script tag
 

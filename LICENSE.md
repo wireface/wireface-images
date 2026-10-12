@@ -1,13 +1,13 @@
 # Wireface Personal Licence
 
-Version 2.1, 12 October 2026
+Version 2.2, 12 October 2026
 Copyright 2026 Compsmart. All rights reserved except as granted below.
 
 Wireface has three licences: this Personal Licence, which is free; the Developer Licence; and the Enterprise Licence.
 
-Under this Personal Licence, adding Wireface to any app, game or website with the compiled @wireface/sdk, including its canvas, 2D and three.js integrations, is free, for personal, noncommercial and commercial purposes, including your own business's websites and tools you use yourself. That covers everything the SDK does: character creation (face detection, shape fitting, rig construction and 2D preparation), the characters it makes, photo mapping onto the fixed mesh, expressions, rendering, animation and audio-driven lip-sync, and the optional detection API.
+Under this Personal Licence, using the compiled @wireface/sdk, including its canvas, 2D and three.js integrations, is free for personal, noncommercial and commercial purposes, such as your own business's websites and tools you use yourself, but not in a product, app or service you sell or charge for. That covers everything the SDK does: character creation (face detection, shape fitting, rig construction and 2D preparation), the characters it makes, photo mapping onto the fixed mesh, expressions, rendering, animation and audio-driven lip-sync, and the optional detection API.
 
-To put Wireface into a product or service you charge for, you need a Developer Licence if you are a freelancer, an indie developer or a company with fewer than 10 employees, or an Enterprise Licence if your company has 10 or more employees. The Developer Licence is governed by the Wireface Developer Licence Terms at https://wireface.dev/license/commercial/; Enterprise Licences are agreed with us in writing. See https://wireface.dev/license/ for how to get either.
+To put Wireface into a product, app or service you sell or charge for, such as a paid app or a SaaS product, you need a Developer Licence if you are a freelancer, an indie developer or a company with fewer than 10 employees, or an Enterprise Licence if your company has 10 or more employees. The Developer Licence is governed by the Wireface Developer Licence Terms at https://wireface.dev/license/commercial/; Enterprise Licences are agreed with us in writing. See https://wireface.dev/license/ for how to get either.
 
 Wireface does not host your characters. They are files you create and keep, and they play on your own devices and servers. Installed SDKs and saved characters never need sign-in, a key, a subscription check or a licensing network connection, and the SDK does not enforce these licences technically. A free Wireface account is needed to download the SDK and to get an API key.
 

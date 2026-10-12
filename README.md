@@ -94,6 +94,6 @@ Cross-origin image hosts **must allow CORS**. A webpage script cannot use the Ch
 
 ## Licence and maintenance
 
-Free local use, including commercial use, under the [Wireface Personal Licence](LICENSE.md). Keep required notices with redistributed files. MediaPipe's runtime, model and canonical geometry retain their Apache 2.0 notices; see [NOTICE](NOTICE) and [licenses](licenses).
+Free for personal and commercial use, such as your own website, under the [Wireface Personal Licence](LICENSE.md). Using it in a product, app or service you sell or charge for, such as a SaaS product, needs a [Developer or Enterprise licence](https://wireface.dev/license/). Keep required notices with redistributed files. MediaPipe's runtime, model and canonical geometry retain their Apache 2.0 notices; see [NOTICE](NOTICE) and [licenses](licenses).
 
 This is a small distribution and examples repository. Its compiled runtime comes from the SDK's image animation entry; the full engine source is not part of this repository. [Report a problem](https://github.com/wireface/wireface-images/issues).
