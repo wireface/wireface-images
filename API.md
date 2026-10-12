@@ -6,7 +6,7 @@ Wireface Images adds silent expressions, blinks and eye movements to existing im
 
 ```html
 <!-- All <img> elements on this page, including images added later. -->
-<script defer src="https://cdn.jsdelivr.net/gh/wireface/wireface-images@a742e02a2da0aa31f053142b6a9a396561c232ba/dist/wireface-images.js"></script>
+<script defer src="https://cdn.jsdelivr.net/gh/wireface/wireface-images@a2c57605498826cc06dc8a2c49b365c592a5ae72/dist/wireface-images.js"></script>
 ```
 
 Use a class or any CSS selector to limit it. Select images themselves or a container whose images should animate:
@@ -16,13 +16,13 @@ Use a class or any CSS selector to limit it. Select images themselves or a conta
   <img src="/photos/alex.jpg" alt="Alex" width="240" height="240">
   <img src="/photos/sam.jpg" alt="Sam" width="240" height="240">
 </div>
-<script defer src="https://cdn.jsdelivr.net/gh/wireface/wireface-images@a742e02a2da0aa31f053142b6a9a396561c232ba/dist/wireface-images.js"
+<script defer src="https://cdn.jsdelivr.net/gh/wireface/wireface-images@a2c57605498826cc06dc8a2c49b365c592a5ae72/dist/wireface-images.js"
   data-selector=".portraits" data-mood="happy" data-intensity="0.7"></script>
 ```
 
 Add `data-wireface-ignore` to an image or container to exclude it. No wrapper, canvas or manual rigging is required. Original images, alt text, dimensions, links and event handlers stay in place. Transparent overlays ignore pointer events.
 
-The jsDelivr URL is pinned to commit `a742e02a2da0aa31f053142b6a9a396561c232ba` of the public [Wireface Images distribution](https://github.com/wireface/wireface-images). It loads the matching `dist/images.js`, MediaPipe JavaScript, WASM and face model from the same revision automatically. No npm install, account or asset-path configuration is needed. Keep the commit pin in production; upgrade by changing it to a tested commit or version tag.
+The jsDelivr URL is pinned to commit `a2c57605498826cc06dc8a2c49b365c592a5ae72` of the public [Wireface Images distribution](https://github.com/wireface/wireface-images). It loads the matching `dist/images.js`, MediaPipe JavaScript, WASM and face model from the same revision automatically. No npm install, account or asset-path configuration is needed. Keep the commit pin in production; upgrade by changing it to a tested commit or version tag.
 
 The script is an entry point, not a self-contained model. To self-host, copy the download's entire `dist/` and `assets/` folders alongside one another, then use `/wireface/dist/wireface-images.js`. Serve over HTTP(S), not `file://`. No bundler is needed. The examples repository includes these files and a local server. The existing `https://wireface.dev/assets/sdk/dist/wireface-images.js` URL remains available, but follows the website's SDK deployment rather than a pinned release.
 
@@ -31,7 +31,7 @@ The script is an entry point, not a self-contained model. To self-host, copy the
 Use this in a `<script type="module">` or a JavaScript module loaded by your page:
 
 ```js
-import { animateImages } from 'https://cdn.jsdelivr.net/gh/wireface/wireface-images@a742e02a2da0aa31f053142b6a9a396561c232ba/dist/images.js';
+import { animateImages } from 'https://cdn.jsdelivr.net/gh/wireface/wireface-images@a2c57605498826cc06dc8a2c49b365c592a5ae72/dist/images.js';
 
 const gallery = animateImages({ selector: '.portraits', mood: 'happy' });
 // The matching detector assets also load from jsDelivr automatically.

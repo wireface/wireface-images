@@ -8,7 +8,7 @@ Bring faces in your photos to life with **one script tag**. Blinks, smiles, rais
 
 ```html
 <!-- All images on the page, including images added later. -->
-<script defer src="https://cdn.jsdelivr.net/gh/wireface/wireface-images@a742e02a2da0aa31f053142b6a9a396561c232ba/dist/wireface-images.js"></script>
+<script defer src="https://cdn.jsdelivr.net/gh/wireface/wireface-images@a2c57605498826cc06dc8a2c49b365c592a5ae72/dist/wireface-images.js"></script>
 ```
 
 Or select a class (on images or a container):
@@ -19,13 +19,13 @@ Or select a class (on images or a container):
   <img src="/photos/sam.jpg" alt="Sam" width="240" height="260">
 </div>
 
-<script defer src="https://cdn.jsdelivr.net/gh/wireface/wireface-images@a742e02a2da0aa31f053142b6a9a396561c232ba/dist/wireface-images.js"
+<script defer src="https://cdn.jsdelivr.net/gh/wireface/wireface-images@a2c57605498826cc06dc8a2c49b365c592a5ae72/dist/wireface-images.js"
   data-selector=".portraits" data-mood="happy" data-intensity="0.7"></script>
 ```
 
 Add `data-wireface-ignore` to an image or container to leave it still. Your original layout, images, alt text and links stay in place.
 
-The jsDelivr URL is pinned to commit `a742e02a2da0aa31f053142b6a9a396561c232ba`. It automatically loads the matching animation module and local detector files from this repository's revision. Keep the commit pin in production. For Content-Security-Policy, allow `https://cdn.jsdelivr.net` in `script-src` and `connect-src`, plus `'wasm-unsafe-eval'` in `script-src`; see [hosting details](API.md#hosting-and-limitations).
+The jsDelivr URL is pinned to commit `a2c57605498826cc06dc8a2c49b365c592a5ae72`. It automatically loads the matching animation module and local detector files from this repository's revision. Keep the commit pin in production. For Content-Security-Policy, allow `https://cdn.jsdelivr.net` in `script-src` and `connect-src`, plus `'wasm-unsafe-eval'` in `script-src`; see [hosting details](API.md#hosting-and-limitations).
 
 ## Try the examples locally
 
@@ -49,7 +49,7 @@ For your own website, copy **both `dist/` and `assets/`**, keep them next to eac
 
 ```js
 // Direct browser module from jsDelivr (no install or bundler):
-import { animateImages } from 'https://cdn.jsdelivr.net/gh/wireface/wireface-images@a742e02a2da0aa31f053142b6a9a396561c232ba/dist/images.js';
+import { animateImages } from 'https://cdn.jsdelivr.net/gh/wireface/wireface-images@a2c57605498826cc06dc8a2c49b365c592a5ae72/dist/images.js';
 // Self-hosted: import { animateImages } from '/wireface/dist/images.js';
 // In the full SDK: import { animateImages } from '@wireface/sdk/images';
 
