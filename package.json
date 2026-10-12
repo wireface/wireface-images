@@ -1,0 +1,35 @@
+{
+  "name": "@wireface/images",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Free silent expressions and eye movements for images on any webpage.",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "main": "./dist/images.js",
+  "types": "./dist/images.d.ts",
+  "jsdelivr": "./dist/wireface-images.js",
+  "exports": {
+    ".": {
+      "types": "./dist/images.d.ts",
+      "default": "./dist/images.js"
+    }
+  },
+  "files": [
+    "dist",
+    "assets",
+    "LICENSE.md",
+    "NOTICE",
+    "licenses",
+    "API.md",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wireface/wireface-images.git"
+  },
+  "scripts": {
+    "start": "node serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

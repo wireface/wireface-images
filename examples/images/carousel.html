@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carousel and lifecycle — Wireface</title><link rel="stylesheet" href="examples.css">
+<script type="module" src="carousel.js"></script></head>
+<body><main><a href="./">← Examples</a><h1>Scroll a little life into view.</h1><p>A native scrolling carousel. Only visible faces animate. Add a photo to see automatic discovery.</p>
+<div class="controls"><button id="previous" aria-label="Previous portraits">←</button><button id="next" aria-label="Next portraits">→</button><button id="pause">Pause / resume</button><button id="add">Add a photo</button><button id="destroy">Destroy</button><label>Mood <select id="mood"><option>random</option><option>happy</option><option>curious</option><option>grumpy</option><option>calm</option></select></label></div>
+<p id="status" role="status">Loading…</p>
+<div class="carousel" tabindex="0" aria-label="Portrait carousel"><img src="../../assets/skins/sarah.jpg" alt="Sarah" width="240" height="260"><img src="../../assets/skins/amara.jpg" alt="Amara" width="240" height="260"><img src="../../assets/skins/marcus.jpg" alt="Marcus" width="240" height="260"><img src="../../assets/skins/arjun.jpg" alt="Arjun" width="240" height="260"></div>
+<pre><code>import { animateImages } from '/wireface/dist/images.js';
+const gallery = animateImages({ selector: '.carousel' });
+gallery.setOptions({ mood: 'curious' });
+gallery.destroy(); // Clean up when a component unmounts.</code></pre>
+</main></body></html>

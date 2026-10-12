@@ -1,0 +1,34 @@
+{
+  "version": "@mediapipe/tasks-vision@1.0.1",
+  "model": "face_landmarker/float16/1",
+  "files": {
+    "face_landmarker.task": {
+      "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+      "bytes": 3758596
+    },
+    "LICENSE": {
+      "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8",
+      "bytes": 12331
+    },
+    "vision_bundle.mjs": {
+      "sha256": "d885630c297c0b20b1fe86096cb06291c4c8080876f27852e724f24ac603713f",
+      "bytes": 155439
+    },
+    "wasm/vision_wasm_internal.js": {
+      "sha256": "e170ee67dd4e16c1a6fcd8840a206687e5a59b22c20e4a902bc445b095454d73",
+      "bytes": 323377
+    },
+    "wasm/vision_wasm_internal.wasm": {
+      "sha256": "8da277a733926eacd0474b8704b36742d6ec3231c57a860c5b889dff8f1df886",
+      "bytes": 11756954
+    },
+    "wasm/vision_wasm_nosimd_internal.js": {
+      "sha256": "e81d715a3d42cc3373602eb2f7aff795d164934db680e32496b65dab537f9658",
+      "bytes": 323180
+    },
+    "wasm/vision_wasm_nosimd_internal.wasm": {
+      "sha256": "a28483cd42e74e855bf5ebdb6b40d9b66a5b49e35e95020bc97669e6822a3192",
+      "bytes": 10960242
+    }
+  }
+}

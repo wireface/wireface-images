@@ -1,0 +1,13 @@
+Wireface Engine. Copyright 2026 Compsmart. Wireface SDK Licence.
+
+MediaPipe canonical_face_model.obj: Copyright Google LLC, Apache License 2.0.
+https://github.com/google-ai-edge/mediapipe - see licenses/Apache-2.0.txt.
+Wireface modifies the canonical geometry to fit photos and generate baked expression data.
+Relevant character files retain these notices and the Apache licence text.
+
+Local photo mapping bundles MediaPipe Tasks Vision 1.0.1, CPU WASM and the face landmarker model under Apache-2.0. See assets/mediapipe/LICENSE and manifest.json.
+Optional cloud-assisted detection and conversation services use their providers' terms and charges.
+Catalogue portraits, character pictures and teeth were made using AI image generation for Wireface.
+Recorded catalogue speech was made using Gemini text-to-speech.
+three.js is an optional peer dependency, MIT, Copyright 2010-2026 three.js authors.
+The optional RobotExpressive example is by Tomas Laulhe, modified by Don McCurdy, CC0 1.0.
